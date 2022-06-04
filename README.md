@@ -1,4 +1,10 @@
-# Open-Source
-hello world!
-print something
-this is a readme file.
+``` c
+#include <stdio.h>
+
+int main(){
+  
+  printf("Hello World\n");
+  
+  return 0;
+}
+```
