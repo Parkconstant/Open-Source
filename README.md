@@ -30,4 +30,25 @@
 |- u|입력한 유저의 프로세스만 표시 - which u|
 
 ![top사진](https://user-images.githubusercontent.com/101575152/172018432-4df1b663-622a-422a-8407-0d67b2d1d6c1.PNG)
+**설명**  
+02:23:26 현재 서버의 시간  
+0user : 0명의 사용자가 접속  
+load average : 부하율  
+tasks 에서 4 total은 3개의 프로세스가 가동중  
+1 running : 1개의 프로세스가 실행중  
+3 sleeping : 3개의 프로세스가 대기중  
+0 stopped : 0개의 프로세스가 멈춤  
+0 zombie : 0개의 프로세스가 좀비상태  
 
+**-- 프로세스 상태 --**  
+PID : 프로세스 ID (PID)  
+USER : 프로세스를 실행시킨 사용자 ID  
+PRI : 프로세스의 우선순위 (priority)  
+NI : NICE 값. 일의 nice value값이다. 마이너스를 가지는 nice value는 우선순위가 높음.  
+VIRT : 가상 메모리의 사용량(SWAP+RES)  
+RES : 현재 페이지가 상주하고 있는 크기(Resident Size)  
+SHR : 분할된 페이지, 프로세스에 의해 사용된 메모리를 나눈 메모리의 총합.  
+S : 프로세스의 상태 [ S(sleeping), R(running), W(swapped out process), Z(zombies) ]  
+%CPU : 프로세스가 사용하는 CPU의 사용율  
+%MEM : 프로세스가 사용하는 메모리의 사용율  
+COMMAND : 실행된 명령어  
