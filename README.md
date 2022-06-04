@@ -122,3 +122,4 @@ ps -ef : 모든 프로세스를 풀 포맷으로 보여준다.
 > [ps명령어](https://arer.tistory.com/150)  
 > [jobs명령어](https://hbase.tistory.com/265)  
 > [kill명령어](https://veneas.tistory.com/entry/Linux-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%8B%9C%EA%B7%B8%EB%84%90-%EB%AA%85%EB%A0%B9%EC%96%B4%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A2%85%EB%A3%8C-kill)  
+> [vim매크로 활용](http://aboutmadlife.blogspot.com/2014/09/linux-vi-macro.html)  
