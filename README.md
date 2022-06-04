@@ -28,3 +28,6 @@
 |- v|version|
 |space bar| refresh|
 |- u|입력한 유저의 프로세스만 표시 - which u|
+
+![top사진](https://user-images.githubusercontent.com/101575152/172018432-4df1b663-622a-422a-8407-0d67b2d1d6c1.PNG)
+
