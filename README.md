@@ -107,3 +107,18 @@ ps -ef : 모든 프로세스를 풀 포맷으로 보여준다.
 |11. SIGSEGV|메모리 침범이 일어날 때 시스템이 보내는 시그널|
 |15. SIGTERM|기본 값, 종료 요청 시그널|
 |20. SIGTSTP|Ctrl + Z 일시 중지 요청 시그널|
+
+---
+**VIM매크로 활용**
+1) **q + 알파벳**을 눌러 해당 알파벳에 매크로를 저장할 수 있다.  
+2) 반복을 위한 내 동작을 입력한다.
+3) **q**를 다시 누르면 매크로 녹화가 종료된다.
+4) **@ + 알파벳**을 입력하면 2번에서 녹화한 동작이 실행된다.(매크로 실행)
+5) **숫자+@+알파벳**을 입력하면 해당 숫자만큼 매크로를 반복한다.
+---
+
+**참고사이트**
+> [top명령어](https://ironmask84.tistory.com/355)  
+> [ps명령어](https://arer.tistory.com/150)  
+> [jobs명령어](https://hbase.tistory.com/265)  
+> [kill명령어](https://veneas.tistory.com/entry/Linux-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%8B%9C%EA%B7%B8%EB%84%90-%EB%AA%85%EB%A0%B9%EC%96%B4%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A2%85%EB%A3%8C-kill)  
