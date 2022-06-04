@@ -1,5 +1,5 @@
 # OpenSource HomeWork
-
+---
 |Linux 명령어|설 명|
 |:---:|:---:|
 |top|시스템의 상태를 전반적으로 가장 빠르게 파악 가능(CPU, Memory, Process)하다.|
@@ -52,3 +52,22 @@ S : 프로세스의 상태 [ S(sleeping), R(running), W(swapped out process), Z(
 %CPU : 프로세스가 사용하는 CPU의 사용율  
 %MEM : 프로세스가 사용하는 메모리의 사용율  
 COMMAND : 실행된 명령어  
+
+---
+|Linux 명령어|설 명|
+|:---:|:---:|
+|ps [옵션]|ps명령어는 현재 실행중인 프로세스 목록을 보여준다.|
+|-e|모든 프로세스를 출력해 준다.|
+|-f|풀 포맷으로 보여준다.(UID, PID 등)|
+|-l|긴 포맷으로 보여준다.|
+|p, -p|특정 PID의 프로세스를 보여준다.|
+|-u|특정 사용자의 프로세스를 보여준다.|
+
+![ps이미지](https://user-images.githubusercontent.com/101575152/172019524-49d2d722-cc2c-47f3-9a28-39ef4750ea05.PNG)  
+ps : pid, cmd 등 기본적인 내용만 출력된다. 옵션 없이는 잘 사용하지 않는다.  
+
+![ps -ef](https://user-images.githubusercontent.com/101575152/172019573-833c4640-24cd-45af-8bbc-660c4fdc26e9.PNG)  
+ps -ef : 모든 프로세스를 풀 포맷으로 보여준다.  
+
+---
+
